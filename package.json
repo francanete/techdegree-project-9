@@ -2,7 +2,7 @@
   "name": "techdegree-project-9",
   "version": "0.0.1",
   "description": "Project 9 - Treehouse Web Dev",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
