@@ -1,0 +1,23 @@
+{
+  "name": "techdegree-project-9",
+  "version": "0.0.1",
+  "description": "Project 9 - Treehouse Web Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francanete/techdegree-project-9.git"
+  },
+  "author": "Fran Canete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francanete/techdegree-project-9/issues"
+  },
+  "homepage": "https://github.com/francanete/techdegree-project-9#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
