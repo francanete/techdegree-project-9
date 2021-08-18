@@ -1,13 +1,49 @@
 {
     "projects": [
         {
-            "id": "",
-            "project_name": "",
-            "description": "",
-            "technologies": ["", ""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ["", "", ""]
+            "id": "0",
+            "project_name": "Random Quote Generator with JavaScript",
+            "description": "Project description here.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://francanete.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/francanete/techdegree-project-4",
+            "image_urls": ["static/images/project4.png", "/static/images/project4-1.png"]
         },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator with JavaScript",
+            "description": "Project description here.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://francanete.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/francanete/techdegree-project-5",
+            "image_urls": ["static/images/project5.png", "", ""]
+        },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator with JavaScript",
+            "description": "Project description here.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://francanete.github.io/techdegree-project-6/",
+            "github_link": "https://github.com/francanete/techdegree-project-6",
+            "image_urls": ["static/images/project6.png", "", ""]
+        },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator with JavaScript",
+            "description": "Project description here.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://francanete.github.io/techdegree-project-7/",
+            "github_link": "https://github.com/francanete/techdegree-project-7",
+            "image_urls": ["static/images/project7.png", "", ""]
+        },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator with JavaScript",
+            "description": "Project description here.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://francanete.github.io/techdegree-project-8/",
+            "github_link": "https://github.com/francanete/techdegree-project-8",
+            "image_urls": ["static/images/project8.png", "", ""]
+        }
     ]
 }
