@@ -340,6 +340,18 @@ nav a span {
   }
 }
 
+/*
+  Error handlers
+*/
+
+.backHome{
+  background: rgb(207, 207, 207);
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
 
 /* 
   Desktop layout styles 

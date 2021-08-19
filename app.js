@@ -15,22 +15,39 @@ app.get('/about',(req, res)=>{
     res.render('about');
 });
 
-app.get('/projects/:id',(req, res)=>{
-    res.render('project', {data: data.projects[req.params.id]})
+app.get('/projects/:id',(req, res, next)=>{
+    if (data.projects[req.params.id]){
+        res.render('project', {data: data.projects[req.params.id]})
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = `Looks like the project you requested doesn't exist.`
+        next(err);
+    }
 });
 
 
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    console.log('404 error handler called');
+    const err = new Error();
     err.status = 404;
+    err.message = "Sorry!  It looks like the page you're looking for does not exist.";
     next(err);
-})
-
+  });
+  
+  /* Global error handler */
 app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error', {err});
-});
+  
+    if (err) {
+      console.log('Global error handler called', err);
+    }
+    if (err.status === 404) {
+        res.status(404).render('not-found', { err });
+    } else {
+        err.message = err.message || 'Sorry! It looks like something went wrong on the server.';
+        res.status(err.status || 500).render('error', {err});
+    }
+  });
 
 
 app.listen(3000, () => {

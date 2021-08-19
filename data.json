@@ -3,47 +3,47 @@
         {
             "id": "0",
             "project_name": "Random Quote Generator with JavaScript",
-            "description": "Project description here.",
+            "description": "In this project I used basic JavaScript syntax and data structures to build a Random Quote Generator.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://francanete.github.io/techdegree-project-4/",
             "github_link": "https://github.com/francanete/techdegree-project-4",
-            "image_urls": ["static/images/project4.png", "/static/images/project4-1.png"]
+            "image_urls": ["/static/images/project4.png", "/static/images/project4-1.png"]
         },
         {
             "id": "1",
-            "project_name": "Random Quote Generator with JavaScript",
-            "description": "Project description here.",
+            "project_name": "Word Guessing Game",
+            "description": "In this project, I created a browser version of Wheel of Success, a word guessing game.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://francanete.github.io/techdegree-project-5/",
             "github_link": "https://github.com/francanete/techdegree-project-5",
-            "image_urls": ["static/images/project5.png", "", ""]
+            "image_urls": ["/static/images/project5.png", "/static/images/project5-1.png", "/static/images/project5-2.png"]
         },
         {
-            "id": "1",
-            "project_name": "Random Quote Generator with JavaScript",
-            "description": "Project description here.",
+            "id": "2",
+            "project_name": "Data Pagination and Filtering",
+            "description": "In this project, I wrote JavaScript to display several pages of student data that the user can easily navigate and view.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://francanete.github.io/techdegree-project-6/",
             "github_link": "https://github.com/francanete/techdegree-project-6",
-            "image_urls": ["static/images/project6.png", "", ""]
+            "image_urls": ["/static/images/project6.png", "/static/images/project6-1.png"]
         },
         {
-            "id": "1",
-            "project_name": "Random Quote Generator with JavaScript",
-            "description": "Project description here.",
+            "id": "3",
+            "project_name": "Interactive Registration Form",
+            "description": "For this project, I used my JavaScript skills to enhance a form so that it’s engaging, interactive, and easy to use.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://francanete.github.io/techdegree-project-7/",
             "github_link": "https://github.com/francanete/techdegree-project-7",
-            "image_urls": ["static/images/project7.png", "", ""]
+            "image_urls": ["/static/images/project7.png", "/static/images/project7-1.png", "/static/images/project7-2.png", "/static/images/project7-3.png"]
         },
         {
-            "id": "1",
-            "project_name": "Random Quote Generator with JavaScript",
-            "description": "Project description here.",
+            "id": "4",
+            "project_name": "Connect to and Use a Public API",
+            "description": "Using JavaScript, I created an employee directory by communicating with a third-party API.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://francanete.github.io/techdegree-project-8/",
             "github_link": "https://github.com/francanete/techdegree-project-8",
-            "image_urls": ["static/images/project8.png", "", ""]
+            "image_urls": ["/static/images/project8.png", "/static/images/project8-1.png", "/static/images/project8-2.png"]
         }
     ]
 }
